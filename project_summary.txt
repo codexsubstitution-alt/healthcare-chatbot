@@ -1,0 +1,26 @@
+Project: Healthcare chatbot
+
+        Tagline:
+        Healthcare Chatbot built with FastAPI + Streamlit + Python
+
+        Goal:
+        Create a healthcare chatbot
+
+        Tech Stack:
+        FastAPI + Streamlit + Python
+
+        Core Features:
+        - Conversational question input
+- Context-aware answer panel
+- Suggested follow-up prompts
+- Session summary and notes
+
+        API Endpoints:
+        - `GET /`: Service status
+- `GET /blueprint`: Project configuration
+- `POST /run`: Generate a structured assistant reply
+
+        Suggested Inputs:
+        - What questions can I ask this assistant?
+- Give me a quick summary for a first-time user.
+- What should I do next based on this issue?
