@@ -1,0 +1,49 @@
+{
+  "project_name": "Healthcare chatbot",
+  "tagline": "Healthcare Chatbot built with FastAPI + Streamlit + Python",
+  "app_type": "chatbot",
+  "primary_goal": "Create a healthcare chatbot",
+  "audience": "students, developers, founders, and operations teams",
+  "core_features": [
+    "Conversational question input",
+    "Context-aware answer panel",
+    "Suggested follow-up prompts",
+    "Session summary and notes"
+  ],
+  "key_entities": [
+    "conversation",
+    "message",
+    "topic",
+    "advice"
+  ],
+  "api_endpoints": [
+    {
+      "method": "GET",
+      "path": "/",
+      "purpose": "Service status"
+    },
+    {
+      "method": "GET",
+      "path": "/blueprint",
+      "purpose": "Project configuration"
+    },
+    {
+      "method": "POST",
+      "path": "/run",
+      "purpose": "Generate a structured assistant reply"
+    }
+  ],
+  "frontend_sections": [
+    "Overview",
+    "Primary Input",
+    "Response Output",
+    "Suggested Actions"
+  ],
+  "sample_inputs": [
+    "What questions can I ask this assistant?",
+    "Give me a quick summary for a first-time user.",
+    "What should I do next based on this issue?"
+  ],
+  "response_style": "structured, concise, and practical",
+  "tech_stack": "FastAPI + Streamlit + Python"
+}
